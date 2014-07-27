@@ -1,0 +1,265 @@
+{
+    "presets": [
+        {
+            "name": "Default",
+            "oscillator": {
+                "power": false,
+                "modType": "sine",
+                "modFrequency": 1,
+                "modDetune": 0,
+                "modGain": 60,
+                "carrierType": "sine",
+                "carrierFrequency": 440,
+                "carrierGain": 1 
+            },
+            "waveshaper": {
+                "power": false,
+                "gain": 1,
+                "drive": 50,
+                "tone": 1000
+            },
+            "bitcrusher": {
+                "power": false,
+                "buffer": 2048,
+                "bitrate": 4
+            },
+            "reverb": {
+                "power": false,
+                "time": 2,
+                "decay": 2,
+                "reverse": false
+            },
+            "delay": {
+                "power": false,
+                "level": 1,
+                "time": 0.5,
+                "delayLevel": 0.5 
+            },
+            "compressor": {
+                "power": false,
+                "attack": 0.003,
+                "knee": 30,
+                "ratio": 12,
+                "reduction": 0,
+                "release": 0.250,
+                "threshold": -24
+            },
+            "mixer": {
+                "low": 0,
+                "middle": 0,
+                "high": 0,
+                "pan": 0,
+                "volume": 0.7
+            }
+        },
+        {
+            "name": "Clicker",
+            "oscillator": {
+                "power": true,
+                "modType": "sawtooth",
+                "modFrequency": 1,
+                "modDetune": 0,
+                "modGain": 450,
+                "carrierType": "triangle",
+                "carrierFrequency": 2250,
+                "carrierGain": 1
+            },
+           "waveshaper": {
+                "power": false,
+                "gain": 1,
+                "drive": 100,
+                "tone": 440
+            },
+            "bitcrusher": {
+                "power": true,
+                "buffer": 1024,
+                "bitrate": 16
+            },
+            "reverb": {
+                "power": false,
+                "time": 2,
+                "decay": 2,
+                "reverse": false
+            },
+            "delay": {
+                "power": false,
+                "level": 1,
+                "time": 1,
+                "delayLevel": 0.5 
+            },
+            "compressor": {
+                "power": false,
+                "attack": 0.003,
+                "knee": 30,
+                "ratio": 12,
+                "reduction": 0,
+                "release": 0.250,
+                "threshold": -24
+            },
+            "mixer": {
+                "low": 0,
+                "middle": 14,
+                "high": -26,
+                "pan": 0,
+                "volume": 0.7
+            }  
+        },
+        {
+            "name": "Ghosthouse",
+            "oscillator": {
+                "power": true,
+                "modType": "sine",
+                "modFrequency": 10,
+                "modDetune": -1000,
+                "modGain": 80,
+                "carrierType": "sine",
+                "carrierFrequency": 180,
+                "carrierGain": 1
+            },
+            "waveshaper": {
+                "power": false,
+                "gain": 1,
+                "drive": 100,
+                "tone": 440
+            },
+            "bitcrusher": {
+                "power": false,
+                "buffer": 4096,
+                "bitrate": 4
+            },
+            "reverb": {
+                "power": true,
+                "time": 1.7,
+                "decay": 5,
+                "reverse": false
+            },
+            "delay": {
+                "power": false,
+                "level": 1,
+                "time": 1,
+                "delayLevel": 0.5 
+            },
+            "compressor": {
+                "power": false,
+                "attack": 0.003,
+                "knee": 30,
+                "ratio": 12,
+                "reduction": 0,
+                "release": 0.250,
+                "threshold": -24
+            },
+            "mixer": {
+                "low": 0,
+                "middle": 0,
+                "high": 0,
+                "pan": 0,
+                "volume": 0.7
+            }
+        },
+        {
+            "name": "Momentum",
+            "oscillator": {
+                "power": true,
+                "modType": "square",
+                "modFrequency": 1,
+                "modDetune": 0,
+                "modGain": 108,
+                "carrierType": "triangle",
+                "carrierFrequency": 440,
+                "carrierGain": 0.8
+            },
+           "waveshaper": {
+                "power": false,
+                "gain": 1,
+                "drive": 100,
+                "tone": 440
+            },
+            "bitcrusher": {
+                "power": false,
+                "buffer": 2048,
+                "bitrate": 4
+            },
+            "reverb": {
+                "power": true,
+                "time": 5,
+                "decay": 2,
+                "reverse": false
+            },
+            "delay": {
+                "power": false,
+                "level": 1,
+                "time": 1,
+                "delayLevel": 0.5 
+            },
+            "compressor": {
+                "power": false,
+                "attack": 0.003,
+                "knee": 30,
+                "ratio": 12,
+                "reduction": 0,
+                "release": 0.250,
+                "threshold": -24
+            },
+            "mixer": {
+                "low": 0,
+                "middle": 0,
+                "high": 0,
+                "pan": 0,
+                "volume": 0.7
+            }
+            
+        },
+        {
+            "name": "Electro",
+            "oscillator": {
+                "power": true,
+                "modType": "sine",
+                "modFrequency": 1790,
+                "modDetune": 430,
+                "modGain": 0,
+                "carrierType": "triangle",
+                "carrierFrequency": 20,
+                "carrierGain": 1 
+            },
+            "waveshaper": {
+                "power": false,
+                "gain": 1,
+                "drive": 50,
+                "tone": 1000
+            },
+            "bitcrusher": {
+                "power": true,
+                "buffer": 4096,
+                "bitrate": 1
+            },
+            "reverb": {
+                "power": false,
+                "time": 2,
+                "decay": 2,
+                "reverse": false
+            },
+            "delay": {
+                "power": false,
+                "level": 1,
+                "time": 0.5,
+                "delayLevel": 0.5 
+            },
+            "compressor": {
+                "power": true,
+                "attack": 0.003,
+                "knee": 30,
+                "ratio": 12,
+                "reduction": 0,
+                "release": 0.250,
+                "threshold": -24
+            },
+            "mixer": {
+                "low": 0,
+                "middle": 0,
+                "high": 0,
+                "pan": 0,
+                "volume": 0.7
+            }
+        }
+    ]
+}

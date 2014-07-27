@@ -1,0 +1,11 @@
+## OS files
+.DS_Store
+
+## Aptana Studio
+.project
+.settings
+MEMO.txt
+
+## Node.js modules
+node_modules/
+
